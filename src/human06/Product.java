@@ -1,0 +1,19 @@
+package human06;
+
+public class Product <T>{
+	public T type;
+	public String model;
+	public void setT(T t) {
+		this.type = t;
+	}
+	public void setModel(String model) {
+		this.model = model;
+	}
+	public T getT() {
+		return this.type;
+	}
+	public T setT() {
+		return this.type;
+	}
+	
+}
